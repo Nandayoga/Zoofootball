@@ -39,8 +39,6 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Pasang Android SDK
-        uses: android-actions/setup-android@v3
 
       - name: Siapkan proyek Capacitor
         shell: bash
