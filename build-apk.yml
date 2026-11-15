@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 
 env:
-  APP_NAME: ZooFootball
-  APP_ID: com.zoofootball.game
+  APP_NAME: ZooSoccer
+  APP_ID: com.zoosoccer.game
   # Opsional (untuk APK rilis yang ditandatangani) - isi di Settings > Secrets and variables > Actions:
   #   KEYSTORE_BASE64, KEYSTORE_PASSWORD, KEY_ALIAS
   KS_B64: ${{ secrets.KEYSTORE_BASE64 }}
